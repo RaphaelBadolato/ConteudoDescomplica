@@ -1,32 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semestre 1.2</title>
+    <title>Faculdade Descomplica</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body{background-color: #ebb80068;}
-        header {background-image: linear-gradient(to bottom, #EB7900, 90% , #EA2600);color: whitesmoke;}
-        h2{ background-color: #EA2600; border-radius: 0%; margin: 0;}
-        h3{background-color: #eb7b20; margin: 0;border-top: 4px solid black;}
-        a{color: #1101FE;}
-        li{font-size: 20px; padding-right: 12px;}
-        .materias{display: flex;justify-content: space-around; border: 2px solid white; border-radius: 20px ;margin: 15px; background-color: white; padding: 15px;box-shadow: 0px 0px 10px black;}
+        header{background: radial-gradient(circle ,white 35% , #04D976);}
+        #header{height: 111px; background: url(imagem/Descomplica.png) center center no-repeat;}
+        body{background: radial-gradient(circle ,white 30% , #04D976);}
+        h2{background-color: black; color: white;}
+        div.semestre{display: flex; justify-content: space-around;}
+        div.materia{border: 2px solid black; border-radius: 10px; width: 250px; height: 150px; margin: 15px 0px; display: flex; justify-content: center; background-color: #D3FBEB; transition: all 0.5s} 
+        a {text-decoration: none; color: black; text-align: center; font-size: 25px; margin: auto; padding: 20px 0px;}
+        .materia:hover {width: 275px; height: 165px; background-color: #39e896e0;}   
+        .materia:hover a {font-weight: bold; font-size: 28px;}
     </style>
 </head>
 <body>
     <header>
-        <h1>Materias Faculdade Descomplica</h1>
+        <div id="header">
+            <h1 style="font-size: 1px;">'</h1>
+        </div>
     </header>
-
-    <h2 style="color: whitesmoke; ">Primeiro Semestre</h2>
-
-    <h3>Semestre 1.2</h3>
-    <ol class="materias" type="I">
-        <li><a href="Semestre 1.2/Arquitetura de Computadores do Século XXI.html">Arquitetura de Computadores do Século XXI</a></li>
-        <li><a href="Semestre 1.2/Lógica de Programação.html">Lógica de Programação</a></li>
-    </ol>
-    
+    <section class="conteudo">
+        <h2>Semestre 1.2</h2>
+        <div class="semestre">
+            <div class="materia">
+                <a href="Semestre 1.2/Arquitetura de Computadores do Século XXI.html">Arquitetura de Computadores do Século XXI</a>
+            </div>
+            <div class="materia">
+                <a href="Semestre 1.2/Lógica de Programação.html">Lógica de Programação</a>
+            </div>
+        </div>
+        <h2>Semestre 2.1</h2>
+        <div class="semestre">
+            <div class="materia">
+                <a href="#">.</a>
+            </div>
+            <div class="materia">
+                <a href="#">.</a>
+            </div><div class="materia">
+                <a href="#">.</a>
+            </div>
+    </section>
 </body>
 </html>
