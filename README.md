@@ -1,2 +1,2 @@
 # ConteudoDescomplica
- Todas as materias de curso de engenharia de software
+ As matérias do curso de engenharia de software do Descomplica.
